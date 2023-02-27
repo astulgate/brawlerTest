@@ -51,5 +51,10 @@ namespace Platformer.Mechanics
             }
         }
 
+        public void ApplyDamage(float damage)
+        {
+            Destroy(gameObject);
+        }
+
     }
 }
