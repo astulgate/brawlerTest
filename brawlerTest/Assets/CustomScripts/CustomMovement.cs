@@ -67,7 +67,7 @@ public class CustomMovement : MonoBehaviour
 
 
 
-
+        WallRun();
 
         WallJump();
         
@@ -97,7 +97,7 @@ public class CustomMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);//vertical * speed);//
     }
 
     private bool IsGrounded()
@@ -162,16 +162,22 @@ public class CustomMovement : MonoBehaviour
 
     private void WallRun()
     {
-        if(IsWalled())// && !IsGrounded()  && horizontal!= 0f
+        if(IsWalled() && !IsGrounded())//   && horizontal!= 0f
         {
-            //isWallRunning = true;
-            rb.velocity = new Vector2(rb.velocity.x, vertical * speed * Time.deltaTime);
+            isWallRunning = true;
+            animator.SetBool("IsWallWalking", isWallRunning);
+            rb.velocity = new Vector2(rb.velocity.x, vertical * speed); //* Time.deltaTime);
         }
     }
 
     private void StopWallJumping()
     {
         isWallJumping = false;
+    }
+
+    private void StopWallRunning()
+    {
+        isWallRunning = false;
     }
 
 

@@ -5,27 +5,27 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638123998680000000
-    m_Hash: 4156271997
+      ticks: 638131288600000000
+    m_Hash: 3954017192
   m_LockFileStatus:
     m_FilePath: /Users/atom1/studio/Repos/brawlerTest/brawlerTest/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638123998750000000
-    m_Hash: 2355394385
+      ticks: 638131288600000000
+    m_Hash: 1224126042
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
-    - packageId: com.unity.cinemachine@2.6.10
+    - packageId: com.unity.cinemachine@2.6.17
       testable: 0
       isDirectDependency: 1
-      version: 2.6.10
+      version: 2.6.17
       source: 1
-      resolvedPath: /Users/atom1/studio/Repos/brawlerTest/brawlerTest/Library/PackageCache/com.unity.cinemachine@2.6.10
+      resolvedPath: /Users/atom1/studio/Repos/brawlerTest/brawlerTest/Library/PackageCache/com.unity.cinemachine@2.6.17
       assetPath: Packages/com.unity.cinemachine
       name: com.unity.cinemachine
       displayName: Cinemachine
@@ -108,6 +108,7 @@ m_PackageAssets:
         - 2.9.4
         - 2.9.5
         - 3.0.0-pre.3
+        - 3.0.0-pre.4
         compatible:
         - 2.5.0
         - 2.6.0-preview.2
@@ -190,13 +191,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637654219840000000
+      datePublishedTicks: 637975495960000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/com.unity.cinemachine.git
-        revision: 21f619698ca31d69054e96556e03097e48e43c5d
+        url: https://github.com/Unity-Technologies/com.unity.cinemachine.git
+        revision: 57501b59e2a5755e26dc54181b2b097af0045a44
         path: 
     - packageId: com.unity.collab-proxy@1.3.9
       testable: 0
@@ -280,6 +281,7 @@ m_PackageAssets:
         - 2.0.0-preview.21
         - 2.0.0-preview.22
         - 2.0.0
+        - 2.0.1
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
@@ -585,12 +587,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
         revision: abb44f053e9a41d2e00e149e32a19bcec76e98b4
         path: 
-    - packageId: com.unity.ide.visualstudio@2.0.11
+    - packageId: com.unity.ide.visualstudio@2.0.17
       testable: 0
       isDirectDependency: 1
-      version: 2.0.11
+      version: 2.0.17
       source: 1
-      resolvedPath: /Users/atom1/studio/Repos/brawlerTest/brawlerTest/Library/PackageCache/com.unity.ide.visualstudio@2.0.11
+      resolvedPath: /Users/atom1/studio/Repos/brawlerTest/brawlerTest/Library/PackageCache/com.unity.ide.visualstudio@2.0.17
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -674,20 +676,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637613656180000000
-      documentationUrl: 
+      datePublishedTicks: 638059987360000000
+      documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-        revision: 680e06d94ffca728223ae2cb14bb919cd354e2c1
+        revision: 1f126893bfb18ea9661fb15771613e841467073c
         path: 
-    - packageId: com.unity.ide.vscode@1.2.3
+    - packageId: com.unity.ide.vscode@1.2.5
       testable: 0
       isDirectDependency: 1
-      version: 1.2.3
+      version: 1.2.5
       source: 1
-      resolvedPath: /Users/atom1/studio/Repos/brawlerTest/brawlerTest/Library/PackageCache/com.unity.ide.vscode@1.2.3
+      resolvedPath: /Users/atom1/studio/Repos/brawlerTest/brawlerTest/Library/PackageCache/com.unity.ide.vscode@1.2.5
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -747,13 +749,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637394922300000000
+      datePublishedTicks: 637800255360000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git
-        revision: b5ec9b38109e52b1b26597d521e4df75e042ebb9
+        url: https://github.com/Unity-Technologies/com.unity.ide.vscode.git
+        revision: b0740c80bfc2440527c317109f7c3d9100132722
         path: 
     - packageId: com.unity.learn.iet-framework@1.2.3
       testable: 0
@@ -1069,6 +1071,7 @@ m_PackageAssets:
         - 1.3.0
         - 1.3.1
         - 1.3.2
+        - 1.3.3
         - 2.0.1-exp.1
         - 2.0.1-exp.2
         - 2.0.1-pre.12
@@ -1084,6 +1087,7 @@ m_PackageAssets:
         - 1.3.0
         - 1.3.1
         - 1.3.2
+        - 1.3.3
         - 2.0.1-exp.1
         - 2.0.1-exp.2
         - 2.0.1-pre.12
@@ -1251,6 +1255,7 @@ m_PackageAssets:
         - 3.2.0-pre.3
         - 3.2.0-pre.4
         - 4.0.0-pre.1
+        - 4.0.0-pre.2
         compatible:
         - 3.0.1
         - 3.0.3
@@ -1392,7 +1397,9 @@ m_PackageAssets:
         - 1.7.0
         - 1.7.1
         - 1.7.2
+        - 1.7.3
         - 1.8.0
+        - 1.8.1
         compatible:
         - 1.4.7
         - 1.4.8
@@ -1423,7 +1430,9 @@ m_PackageAssets:
         - 1.7.0
         - 1.7.1
         - 1.7.2
+        - 1.7.3
         - 1.8.0
+        - 1.8.1
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
